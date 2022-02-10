@@ -1,4 +1,6 @@
-# World_Weather_Analysis
+# World Weather Analysis
+*An API World Weather Analysis*
+
 
 ## Project Overview
 
@@ -20,5 +22,36 @@ In this folder, we use the Google Directions API to create a travel itinerary th
 Finally, we created a marker layer map with a pop-up marker for each city on the itinerary (Laguna, CA, Pacifica, CA, Half Moon Bay, CA, Pacific Grove, CA).
 
 ![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/88729583/136299890-00d9d5e9-ace6-4131-8ac8-6460a8ab6af9.png)
+
+## Resources 
+
+- Software
+    -	Jupyter Notebook
+- Enviroment
+    -	Python 3.7
+- Dependencies
+    -	Pandas Library
+    -	Numpy Library 
+    -	CitiPy Module
+    -	Python Requests
+- APIs
+    -	**Open Weather APIs** to retrieve weather data.
+    -	**Google Maps API** to create heat maps and retrieve information about hotels around the world.
+    -	**Google Directions API** to map the direction between 4 points.
+
+## Techniques used
+
+-	NumPy random module to generate random coordinates.
+-	CityPy module to search for city names based on random coordinates.
+-	Retrieve and use data from an API "get" request to a server.
+-	Retrieve and store values from a JSON array.
+-	Use try and except blocks to resolve errors.
+-	Create heatmaps, and add markers using the Google Maps API.
+-	Create destination layer map using Google Direction API.
+-	Pandas to create data frames and clean the data.
+-	Take user input and select data base on user input.
+-	Python enumerate function.
+-	Creating heat maps and pop-up boxes that displays information about hotels and weather.
+-	Json traversals.
 
 
